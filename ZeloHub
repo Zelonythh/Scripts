@@ -1,0 +1,14 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+ 
+local Zelonyth = Library:NewWindow("Combat")
+ 
+local Main = Zelonyth:NewSection("Firing")
+ 
+Main:CreateButton("Anti Afk", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zelonythh/Scripts/main/AntiAfk.lua"))()
+end)
+
+Main:CreateButton("Firepp", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zelonythh/Scripts/main/AntiAfk.lua"))()
+end)
+ 
